@@ -1,0 +1,4 @@
+sep=,
+Receipt,Date,Time,Status,Payment Method,Staff Member,Bill Name,Card Reader,Items,Note,Currency,Tip,Bill Discount,VAT,Total (incl. tax),Fee Amount,Net Settlement
+2023/08/000254,2023/08/16,12:56:46,Approved,Credit Card,Jack,,011-465385,1 x Custom amount,760,ZAR,0.00,0.00,577.48,4 427.50,150.20,4 277.30
+2023/08/000253,2023/08/08,08:28:19,Approved,Credit Card,Jack,,011-465385,1 x Custom amount,740,ZAR,0.00,0.00,425.23,3 260.25,110.60,3 149.65
