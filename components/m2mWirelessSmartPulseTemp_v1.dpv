@@ -1,0 +1,64 @@
+separated
+FILE,/home/anton/pnp/m2mWirelessSmartPulseTemp_v1.dpv
+PCBFILE,/home/anton/pnp/m2mWirelessSmartPulseTemp_v1
+DATE,2023/08/14
+TIME,16:44:56
+PANELYPE,1
+
+
+Table,No.,ID,DeltX,DeltY,FeedRates,Note,Height,Speed,Status,SizeX,SizeY
+Station, 0, 1, 2.31 , 0.25 , 4 , 100nF-C0603 , 0.5 , 0 , 6, 80, 160
+Station, 1, 8, 0.5 , 0.38 , 4 , 10k-R0603 , 0.5 , 0 , 6, 80, 160
+Station, 2, 11, 0 , 0 , 4 , 4k7-R0603 , 0.5 , 0 , 6, 80, 160
+Station, 3, 19, 0 , 0 , 4 , PCHANNEL , 0.5 , 0 , 6,  0,  0
+Station, 4, 22, 0 , 0 , 4 , NCHANNEL , 0.5 , 0 , 6,  0,  0
+Station, 5, 27, 0.04 , 0.22 , 12 , 100uH-PIH8D43 , 3 , 0 , 2,  0,  0
+Station, 6, 39, 0 , 0 , 4 , 820k-R0603 , 0.5 , 0 , 6, 80, 160
+Station, 7, 46, 0 , 0 , 4 , 100uF-1210 , 0.5 , 0 , 6, 80, 160
+Station, 8, 62, 0 , 0 , 8 , ATTINY414-SO14 , 0 , 0 , 6, 500, 1000
+Station, 9, 96, 210 , 54 , 24 , RA-01-RFM69HCW-XXXS2 , 2 , 0 , 6,  0,  0
+
+Table,No.,ID,IntervalX,IntervalY,NumX,NumY
+Panel_Array,0,1, 81.500000 , 76.500000 , 3 , 2
+
+Table,No.,ID,PHead,STNo.,DeltX,DeltY,Angle,Height,Skip,Speed,Explain,Note
+EComponent, 0, 1, 1 , 1, 57.50, 52.00, -90.00, 0.50, 6, 0, C1, 100nF-C0603 
+EComponent, 1, 2, 1 , 1, 50.20, 37.30, 90.00, 0.50, 6, 0, C3, 100nF-C0603 
+EComponent, 2, 3, 1 , 1, 72.40, 69.40, 0.00, 0.50, 6, 0, C5, 100nF-C0603 
+EComponent, 3, 4, 1 , 8, 54.20, 37.70, 0.00, 0.50, 6, 0, R6, 10k-R0603 
+EComponent, 4, 5, 1 , 11, 75.80, 39.80, 0.00, 0.50, 6, 0, R2, 4k7-R0603 
+EComponent, 5, 6, 1 , 11, 69.40, 40.00, 0.00, 0.50, 6, 0, R4, 4k7-R0603 
+EComponent, 6, 7, 1 , 19, 51.05, 50.00, -90.00, 0.50, 6, 0, Q7, PCHANNEL 
+EComponent, 7, 8, 1 , 22, 70.40, 43.25, 0.00, 0.50, 6, 0, Q1, NCHANNEL 
+EComponent, 8, 9, 1 , 22, 76.80, 43.25, 0.00, 0.50, 6, 0, Q2, NCHANNEL 
+EComponent, 9, 10, 2 , 27, 56.48, 47.58, -90.00, 3.00, 2, 0, U$10, 100uH-PIH8D43 
+EComponent, 10, 11, 1 , 39, 76.00, 46.00, -180.00, 0.50, 6, 0, R1, 820k-R0603 
+EComponent, 11, 12, 1 , 39, 76.60, 37.20, -180.00, 0.50, 6, 0, R3, 820k-R0603 
+EComponent, 12, 13, 1 , 39, 71.40, 46.00, 0.00, 0.50, 6, 0, R5, 820k-R0603 
+EComponent, 13, 14, 1 , 39, 68.60, 37.40, 0.00, 0.50, 6, 0, R7, 820k-R0603 
+EComponent, 14, 15, 1 , 39, 48.00, 50.00, 90.00, 0.50, 6, 0, R10, 820k-R0603 
+EComponent, 15, 16, 1 , 46, 49.70, 39.70, 90.00, 0.50, 6, 0, C2, 100uF-1210 
+EComponent, 16, 17, 1 , 46, 70.20, 70.00, 0.00, 0.50, 6, 0, C4, 100uF-1210 
+EComponent, 17, 18, 1 , 46, 63.00, 50.00, -90.00, 0.50, 6, 0, C18, 100uF-1210 
+EComponent, 18, 19, 2 , 62, 70.70, 62.47, 180.00, 0.00, 6, 0, IC1, ATTINY414-SO14 
+EComponent, 19, 20, 2 , 96, 57.80, 63.30, 180.00, 2.00, 6, 0, U$1, RA-01-RFM69HCW-XXXS2 
+
+Table,No.,ID,CenterX,CenterY,IntervalX,IntervalY,NumX,NumY,Start
+ICTray,0,91,146.96,438.83,296.96,438.83,6,1,0
+ICTray,1,92,144.89,382.33,328.89,407.33,9,2,0
+ICTray,2,93,147.81,326.88,331.81,351.88,9,2,0
+ICTray,3,94,354.23,327.93,404.23,422.93,3,6,0
+ICTray,4,95,142.20,360.35,326.20,360.35,9,1,0
+ICTray,5,96,147.81,326.88,331.81,401.88,9,4,0
+ICTray,6,97,214.83,28.69,354.94,28.59,6,1,0
+ICTray,7,98,214.83,28.69,354.94,28.59,6,1,0
+
+Table,No.,nType,nAlg,nFinished
+PcbCalib,0,1,0,0
+
+Table,No.,ID,offsetX,offsetY,Note
+CalibPoint, 0, 1, 10.000000, 159.150000, TOPLEFT
+CalibPoint, 1, 2, 234.500000, 3.850000, BOTTOMRIGHT
+
+Table,No.,DeltX,DeltY,AlphaX,AlphaY,BetaX,BetaY,DeltaAngle
+CalibFator,0,0,0,0,0,1,1,0

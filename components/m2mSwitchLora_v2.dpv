@@ -1,0 +1,75 @@
+separated
+FILE,/home/anton/pnp/m2mSwitchLora_v2.dpv
+PCBFILE,/home/anton/pnp/m2mSwitchLora_v2
+DATE,2023/05/10
+TIME,16:26:08
+PANELYPE,1
+
+
+Table,No.,ID,DeltX,DeltY,FeedRates,Note,Height,Speed,Status,SizeX,SizeY
+Station, 0, 1, 0 , 0.25 , 4 , 100nF-C0603 , 0.5 , 0 , 6, 80, 160
+Station, 1, 2, 0.25 , 0.31 , 4 , 1k-R0603 , 0.5 , 0 , 6, 80, 160
+Station, 2, 8, 0.5 , 0.38 , 4 , 10k-R0603 , 0.5 , 0 , 6, 80, 160
+Station, 3, 9, 0.45 , 0.29 , 4 , 330-R0603 , 0.5 , 0 , 6, 80, 160
+Station, 4, 10, 0 , 0 , 4 , 10uF-C1206 , 0.5 , 0 , 6, 160, 320
+Station, 5, 20, 0.15 , 0.16 , 4 , MMBT3904-SOT23 , 0.5 , 0 , 6,  0,  0
+Station, 6, 36, -1.66 , 0.13 , 4 , BLUE-CHIPLED_1206 , 0.5 , 0 , 6, 160, 320
+Station, 7, 37, 0.39 , 0.15 , 4 , GREEN-CHIPLED_1206 , 0.5 , 0 , 6, 160, 320
+Station, 8, 38, 0.51 , 0.19 , 4 , RED-CHIPLED_1206 , 0.5 , 0 , 6, 160, 320
+Station, 9, 41, 0 , 0 , 4 , CGRM4001-G-SOD-123_MINI-SMA , 1.5 , 0 , 6, 80, 250
+Station, 10, 45, 0 , 0 , 4 , 3.3V/150mA-SOT23-5 , 0.5 , 0 , 6, 300, 300
+Station, 11, 54, 0 , 0 , 4 , 100uF-C1206 , 0.5 , 0 , 6, 160, 320
+
+Table,No.,ID,IntervalX,IntervalY,NumX,NumY
+Panel_Array,0,1, 49.500000 , 77.800000 , 5 , 2
+
+Table,No.,ID,PHead,STNo.,DeltX,DeltY,Angle,Height,Skip,Speed,Explain,Note
+EComponent, 0, 1, 1 , 1, 31.40, 62.40, 0.00, 0.50, 6, 0, C3, 100nF-C0603 
+EComponent, 1, 2, 1 , 1, 34.00, 52.20, 0.00, 0.50, 6, 0, C5, 100nF-C0603 
+EComponent, 2, 3, 1 , 1, 40.20, 54.80, 180.00, 0.50, 6, 0, C8, 100nF-C0603 
+EComponent, 3, 4, 1 , 1, 22.60, 54.00, 180.00, 0.50, 6, 0, C9, 100nF-C0603 
+EComponent, 4, 5, 1 , 1, 4.80, 70.00, 90.00, 0.50, 6, 0, C14, 100nF-C0603 
+EComponent, 5, 6, 1 , 2, 33.60, 68.00, 90.00, 0.50, 6, 0, R1, 1k-R0603 
+EComponent, 6, 7, 1 , 2, 30.60, 57.20, 90.00, 0.50, 6, 0, R4, 1k-R0603 
+EComponent, 7, 8, 1 , 2, 27.40, 68.00, 90.00, 0.50, 6, 0, R5, 1k-R0603 
+EComponent, 8, 9, 1 , 2, 25.20, 54.00, 0.00, 0.50, 6, 0, R8, 1k-R0603 
+EComponent, 9, 10, 1 , 2, 21.00, 54.00, 0.00, 0.50, 6, 0, R11, 1k-R0603 
+EComponent, 10, 11, 1 , 2, 44.20, 57.20, 90.00, 0.50, 6, 0, R12, 1k-R0603 
+EComponent, 11, 12, 1 , 8, 23.40, 68.00, -90.00, 0.50, 6, 0, R3, 10k-R0603 
+EComponent, 12, 13, 1 , 8, 29.60, 61.00, 0.00, 0.50, 6, 0, R17, 10k-R0603 
+EComponent, 13, 14, 1 , 9, 43.40, 68.00, 180.00, 0.50, 6, 0, R2, 330-R0603 
+EComponent, 14, 15, 1 , 9, 46.40, 68.00, 180.00, 0.50, 6, 0, R6, 330-R0603 
+EComponent, 15, 16, 1 , 10, 18.60, 53.20, 0.00, 0.50, 6, 0, C4, 10uF-C1206 
+EComponent, 16, 17, 1 , 20, 44.20, 54.55, 180.00, 0.50, 6, 0, Q1, MMBT3904-SOT23 
+EComponent, 17, 18, 1 , 20, 30.60, 54.55, 180.00, 0.50, 6, 0, Q2, MMBT3904-SOT23 
+EComponent, 18, 19, 1 , 36, 21.20, 70.20, -90.00, 0.50, 6, 0, D5, BLUE-CHIPLED_1206 
+EComponent, 19, 20, 1 , 37, 35.80, 70.20, 90.00, 0.50, 6, 0, D3, GREEN-CHIPLED_1206 
+EComponent, 20, 21, 1 , 37, 30.00, 70.20, 90.00, 0.50, 6, 0, D4, GREEN-CHIPLED_1206 
+EComponent, 21, 22, 1 , 38, 31.20, 17.60, 90.00, 0.50, 6, 0, D1, RED-CHIPLED_1206 
+EComponent, 22, 23, 1 , 38, 36.60, 17.60, -90.00, 0.50, 6, 0, D2, RED-CHIPLED_1206 
+EComponent, 23, 24, 1 , 41, 46.40, 73.40, 180.00, 1.50, 6, 0, D6, CGRM4001-G-SOD-123_MINI-SMA 
+EComponent, 24, 25, 1 , 41, 29.00, 51.40, -90.00, 1.50, 6, 0, D7, CGRM4001-G-SOD-123_MINI-SMA 
+EComponent, 25, 26, 1 , 41, 43.40, 73.40, 180.00, 1.50, 6, 0, D8, CGRM4001-G-SOD-123_MINI-SMA 
+EComponent, 26, 27, 1 , 41, 42.40, 51.40, -90.00, 1.50, 6, 0, D9, CGRM4001-G-SOD-123_MINI-SMA 
+EComponent, 27, 28, 1 , 45, 36.60, 52.60, -90.00, 0.50, 6, 0, U1, 3.3V/150mA-SOT23-5 
+EComponent, 28, 29, 1 , 54, 5.20, 74.00, 0.00, 0.50, 6, 0, C2, 100uF-C1206 
+
+Table,No.,ID,CenterX,CenterY,IntervalX,IntervalY,NumX,NumY,Start
+ICTray,0,91,146.96,438.83,296.96,438.83,6,1,0
+ICTray,1,92,144.89,382.33,328.89,407.33,9,2,0
+ICTray,2,93,147.81,326.88,331.81,351.88,9,2,0
+ICTray,3,94,354.23,327.93,404.23,422.93,3,6,0
+ICTray,4,95,142.20,360.35,326.20,360.35,9,1,0
+ICTray,5,96,147.81,326.88,331.81,401.88,9,4,0
+ICTray,6,97,214.83,28.69,354.94,28.59,6,1,0
+ICTray,7,98,214.83,28.69,354.94,28.59,6,1,0
+
+Table,No.,nType,nAlg,nFinished
+PcbCalib,0,1,0,0
+
+Table,No.,ID,offsetX,offsetY,Note
+CalibPoint, 0, 1, 10.000000, 161.750000, TOPLEFT
+CalibPoint, 1, 2, 237.500000, 3.850000, BOTTOMRIGHT
+
+Table,No.,DeltX,DeltY,AlphaX,AlphaY,BetaX,BetaY,DeltaAngle
+CalibFator,0,0,0,0,0,1,1,0

@@ -1,0 +1,85 @@
+separated
+FILE,/home/anton/pnp/m2mKamstrup_v6.2ICASA.dpv
+PCBFILE,/home/anton/pnp/m2mKamstrup_v6.2ICASA
+DATE,2023/04/12
+TIME,17:00:49
+PANELYPE,1
+
+
+Table,No.,ID,DeltX,DeltY,FeedRates,Note,Height,Speed,Status,SizeX,SizeY
+Station, 0, 1, 2.31 , 0.25 , 4 , 100nF-C0603 , 0.5 , 0 , 6, 80, 160
+Station, 1, 2, 0.25 , 0.31 , 4 , 1k-R0603 , 0.5 , 0 , 6, 80, 160
+Station, 2, 10, 0 , 0 , 4 , 10uF-C1206 , 0.5 , 0 , 6, 160, 320
+Station, 3, 16, 0.26 , 0.56 , 4 , 39pF-C0603 , 0.5 , 0 , 6, 80, 160
+Station, 4, 20, 0.15 , 0.16 , 4 , MMBT3904-SOT23 , 0.5 , 0 , 6,  0,  0
+Station, 5, 22, 0 , 0 , 4 , NCHANNEL , 0.5 , 0 , 6,  0,  0
+Station, 6, 25, 0.38 , 0.1 , 8 , SP3485-SO08 , 0.5 , 0 , 6,  0,  0
+Station, 7, 36, -1.66 , 0.13 , 4 , BLUE-CHIPLED_1206 , 0.5 , 0 , 6, 160, 320
+Station, 8, 37, 0.39 , 0.15 , 4 , GREEN-CHIPLED_1206 , 0.5 , 0 , 6, 160, 320
+Station, 9, 38, 0.51 , 0.19 , 4 , RED-CHIPLED_1206 , 0.5 , 0 , 6, 160, 320
+Station, 10, 41, 0 , 0 , 4 , SM4007-SOD-123_MINI-SMA , 1.5 , 0 , 6, 80, 250
+Station, 11, 43, 0 , 0 , 4 , 4.7uF-C0805 , 0.5 , 0 , 6, 200, 100
+Station, 12, 50, 0 , 0 , 4 , 24V-0603 , 0.5 , 0 , 6, 80, 160
+Station, 13, 53, 0.35 , 0.34 , 4 , 270-R0603 , 0.5 , 0 , 6, 80, 160
+Station, 14, 59, 0.33 , 0.31 , 8 , 330uF-SMC_D , 3 , 0 , 6, 800, 400
+Station, 15, 92, 210 , 54 , 24 , QUECTEL-M66-QUECTEL-M66 , 2 , 0 , 6,  0,  0
+Station, 16, 93, 210 , 28 , 28 , SIM-MUP-C792 , 2 , 0 , 6,  0,  0
+Station, 17, 96, 210 , 54 , 24 , RA-01-RFM69HCW-XXXS2 , 2 , 0 , 6,  0,  0
+
+Table,No.,ID,IntervalX,IntervalY,NumX,NumY
+Panel_Array,0,1, 42.000000 , 63.600000 , 6 , 2
+
+Table,No.,ID,PHead,STNo.,DeltX,DeltY,Angle,Height,Skip,Speed,Explain,Note
+EComponent, 0, 1, 1 , 1, 22.80, 48.60, -90.00, 0.50, 6, 0, C1, 100nF-C0603 
+EComponent, 1, 2, 1 , 1, 28.30, 46.80, 0.00, 0.50, 6, 0, C3, 100nF-C0603 
+EComponent, 2, 3, 1 , 1, 39.80, 25.00, 180.00, 0.50, 6, 0, C7, 100nF-C0603 
+EComponent, 3, 4, 1 , 1, 40.20, 58.60, 180.00, 0.50, 6, 0, C10, 100nF-C0603 
+EComponent, 4, 5, 1 , 2, 7.80, 64.60, 0.00, 0.50, 6, 0, R2, 1k-R0603 
+EComponent, 5, 6, 1 , 2, 8.80, 17.80, 90.00, 0.50, 6, 0, R3, 1k-R0603 
+EComponent, 6, 7, 1 , 2, 11.60, 50.20, 90.00, 0.50, 6, 0, R4, 1k-R0603 
+EComponent, 7, 8, 1 , 2, 2.90, 50.60, 90.00, 0.50, 6, 0, R5, 1k-R0603 
+EComponent, 8, 9, 1 , 2, 17.60, 48.80, 180.00, 0.50, 6, 0, R6, 1k-R0603 
+EComponent, 9, 10, 1 , 2, 9.90, 48.20, -90.00, 0.50, 6, 0, R7, 1k-R0603 
+EComponent, 10, 11, 1 , 2, 40.00, 12.60, 180.00, 0.50, 6, 0, R17, 1k-R0603 
+EComponent, 11, 12, 1 , 2, 1.60, 64.60, 0.00, 0.50, 6, 0, R18, 1k-R0603 
+EComponent, 12, 13, 1 , 10, 26.00, 16.00, 180.00, 0.50, 6, 0, C5, 10uF-C1206 
+EComponent, 13, 14, 1 , 16, 26.20, 46.80, 0.00, 0.50, 6, 0, C6, 39pF-C0603 
+EComponent, 14, 15, 1 , 20, 14.85, 49.20, -90.00, 0.50, 6, 0, Q1, MMBT3904-SOT23 
+EComponent, 15, 16, 1 , 20, 6.55, 49.70, -90.00, 0.50, 6, 0, Q9, MMBT3904-SOT23 
+EComponent, 16, 17, 1 , 22, 10.35, 64.20, 90.00, 0.50, 6, 0, Q6, NCHANNEL 
+EComponent, 17, 18, 1 , 22, 4.35, 64.40, 90.00, 0.50, 6, 0, Q7, NCHANNEL 
+EComponent, 18, 19, 1 , 22, 40.00, 16.15, 180.00, 0.50, 6, 0, Q8, NCHANNEL 
+EComponent, 19, 20, 1 , 25, 14.20, 15.80, 0.00, 0.50, 6, 0, U2, SP3485-SO08 
+EComponent, 20, 21, 1 , 36, 9.60, 67.20, -90.00, 0.50, 6, 0, RTS_LED, BLUE-CHIPLED_1206 
+EComponent, 21, 22, 1 , 37, 40.00, 8.20, -180.00, 0.50, 6, 0, RX_LED, GREEN-CHIPLED_1206 
+EComponent, 22, 23, 1 , 38, 3.40, 67.20, -90.00, 0.50, 6, 0, TX_LED, RED-CHIPLED_1206 
+EComponent, 23, 24, 1 , 41, 36.10, 59.50, -90.00, 1.50, 6, 0, D1, SM4007-SOD-123_MINI-SMA 
+EComponent, 24, 25, 1 , 41, 36.10, 56.30, 90.00, 1.50, 6, 0, D2, SM4007-SOD-123_MINI-SMA 
+EComponent, 25, 26, 1 , 43, 39.10, 34.00, 180.00, 0.50, 6, 0, C4, 4.7uF-C0805 
+EComponent, 26, 27, 1 , 50, 19.60, 13.40, -90.00, 0.50, 6, 0, D5, 24V-0603 
+EComponent, 27, 28, 1 , 50, 23.20, 13.40, 90.00, 0.50, 6, 0, D6, 24V-0603 
+EComponent, 28, 29, 1 , 53, 20.40, 15.60, 0.00, 0.50, 6, 0, R16, 270-R0603 
+EComponent, 29, 30, 2 , 59, 35.80, 49.00, 0.00, 3.00, 6, 0, C9, 330uF-SMC_D 
+EComponent, 30, 31, 2 , 92, 28.20, 30.40, 180.00, 2.00, 6, 0, U$2, QUECTEL-M66-QUECTEL-M66 
+EComponent, 31, 32, 2 , 93, 22.00, 59.00, 180.00, 2.00, 6, 0, X4, SIM-MUP-C792 
+EComponent, 32, 33, 2 , 96, 9.60, 28.40, 0.00, 2.00, 6, 0, U$3, RA-01-RFM69HCW-XXXS2 
+
+Table,No.,ID,CenterX,CenterY,IntervalX,IntervalY,NumX,NumY,Start
+ICTray,0,91,146.96,438.83,296.96,438.83,6,1,0
+ICTray,1,92,144.89,382.33,328.89,407.33,9,2,0
+ICTray,2,93,147.81,326.88,331.81,351.88,9,2,0
+ICTray,3,94,354.23,327.93,404.23,422.93,3,6,0
+ICTray,4,95,142.20,360.35,326.20,360.35,9,1,0
+ICTray,5,96,147.81,326.88,331.81,401.88,9,4,0
+ICTray,6,97,214.83,28.69,354.94,28.59,6,1,0
+ICTray,7,98,214.83,28.69,354.94,28.59,6,1,0
+
+Table,No.,nType,nAlg,nFinished
+PcbCalib,0,1,0,0
+
+Table,No.,ID,offsetX,offsetY,Note
+CalibPoint, 0, 1, 10.000000, 133.350000, TOPLEFT
+CalibPoint, 1, 2, 242.000000, 3.850000, BOTTOMRIGHT
+
+Table,No.,DeltX,DeltY,AlphaX,AlphaY,BetaX,BetaY,DeltaAngle
+CalibFator,0,0,0,0,0,1,1,0
