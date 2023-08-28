@@ -1,0 +1,4 @@
+Bill Date,Bill Number,PurchaseOrder,Bill Status,Vendor Name,Due Date,Currency Code,Exchange Rate,Account,Description,Quantity,Rate,Tax Name,Tax Percentage,Is Inclusive Tax,Tax Type,Vendor Notes,Terms & Conditions,Customer Name,Project Name,Item Type,Adjustment,Purchase Order Number,Is Discount Before Tax,Entity Discount Amount,Discount Account,Is Landed Cost,Warehouse Name,Branch Name,CF.Transporte_Name
+2013-07-20,BILL-1,,Open,Sample Customer,2013-07-28,CNY,5,IT and Internet Expenses,Sample Description,1,100,GST,2,TRUE,ItemAmount,,,,,goods,10,PO-00031,TRUE,10,Purchase Discounts,FALSE,Head Office,Head Office,Ram
+2013-07-20,BILL-2,,Open,David,2013-07-25,USD,10,Furniture and Equipment,,1,50,,,FALSE,,,,,,goods,0,PO-00001,TRUE,10,Purchase Discounts,TRUE,,Head Office,
+2013-07-20,BILL-2,,Open,David,2013-07-25,USD,10,Repairs and Maintenance,Sample Description,1,100,GST,2,FALSE,ItemAmount,,,,,goods,0,PO-00036,TRUE,11,Purchase Discounts,FALSE,Head Office,Head Office,
