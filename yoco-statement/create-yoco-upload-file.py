@@ -47,10 +47,10 @@ def process_yoco_data(input_file_path, output_file_name):
     return df2
 
 # Define the path to the input CSV file
-yoco_input = "Transactions-from-2023-08-01.csv"
+yoco_input = "Transactions-from-2023-08-23-to-2023-09-23.csv"
     
 # Define the output file name for the CSV
-yoco_output = "yoco-output.csv"
+yoco_output = "yoco-output-aug.csv"
 
 # Process the data and get the processed DataFrame
 df = process_yoco_data(yoco_input, yoco_output)
