@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Input and output file names
-file_name_input = "forestmews-raw-data-Aug.xlsx"
-file_name_output = "forestmews-raw-data-Aug-output.xlsx"
+file_name_input = "forestmews-1sept-1oct-input.xlsx"
+file_name_output = "forestmews-1sept-1oct-output.xlsx"
 
 # Read the input Excel file into a DataFrame
 df = pd.read_excel(file_name_input)
