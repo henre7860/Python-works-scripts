@@ -1,15 +1,15 @@
 import pandas as pd
 
 # Input and output file names
-file_name_input = "forestmews-1sept-1oct-input.xlsx"
-file_name_output = "forestmews-1sept-1oct-output.xlsx"
+file_name_input = "forestmews-1oct2022-1oct2023.xlsx"
+file_name_output = "forestmews-1oct2022-1oct2023-output.xlsx"
 
 # Read the input Excel file into a DataFrame
 df = pd.read_excel(file_name_input)
 
 # Define the start and end months for column renaming and processing
-start_month = "1 August 2023"
-end_month = "1 September 2023"
+start_month = "1 October 2022"
+end_month = "1 October 2023"
 
 # Get the current column names
 current_columns = df.columns.tolist()
