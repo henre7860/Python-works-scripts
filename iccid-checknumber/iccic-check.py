@@ -2,7 +2,7 @@ import pandas as pd
 import math
 
 # Read the CSV file into a DataFrame with no header
-input_file_path = "data-24sim-fungi-siemens.csv"
+input_file_path = "hohm-iccid.csv"
 df = pd.read_csv(input_file_path, header=None)
 
 # ICCID List
@@ -37,7 +37,7 @@ for i in range(len(iccid_list)):
 
 
 # Save the iccid list a text file
-output_file_path = "data-24sim-fungi-siemens-outout.csv"
+output_file_path = "hohm-iccid-outout.csv"
 
 df = pd.DataFrame(iccid_calc)
 df.to_csv(output_file_path, index=False, header=False)
