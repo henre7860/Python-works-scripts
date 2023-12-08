@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 # Read the CSV file into a DataFrame with no header
-input_file_path = "midcity-100sims-23oct.csv"
+input_file_path = "IN106260.csv"
 df = pd.read_csv(input_file_path, header=None)
 
 # ICCID List
@@ -55,7 +55,7 @@ json_string = json.dumps(json_data, indent=2)
 #print(json_string[:300])
 
 # Save the JSON string to a text file
-output_file_path = "midcity-100sims-23oct.json"
+output_file_path = "IN106260.json"
 with open(output_file_path, "w") as output_file:
     output_file.write(json_string)
 
